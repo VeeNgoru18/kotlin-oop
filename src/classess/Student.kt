@@ -1,4 +1,4 @@
-/*
+package classess/*
 * T
 *
 * */
@@ -6,15 +6,15 @@
 class Student {
 
     fun admit(name: String, age: Int, grade: String) {
-        println("New Student $name and age $age and is in grade $grade")
+        println("New classess.Student $name and age $age and is in grade $grade")
     }
 
     fun promote(name: String, grade: String) {
-        println("Student $name has been promoted to grade $grade")
+        println("classess.Student $name has been promoted to grade $grade")
     }
 
     fun suspend(name: String) {
-        println("Student $name has been Suspended ")
+        println("classess.Student $name has been Suspended ")
     }
 
 }

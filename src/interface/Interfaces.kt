@@ -1,3 +1,5 @@
+package `interface`
+
 interface Auth {
     fun Onstart(msg: String)
     fun OnSuccess()

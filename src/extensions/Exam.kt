@@ -1,3 +1,5 @@
+package extensions
+
 class Exam {
     fun isPassed(marks: Int): Boolean {
         return marks >= 70
