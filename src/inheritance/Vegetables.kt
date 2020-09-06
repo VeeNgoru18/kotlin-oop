@@ -9,7 +9,8 @@ package inheritance
 * The class from which the features are inherited is known as base class or super class or
 * parent class and the class that inherits the features is known as derived class or sub
 * class or child class.
-*
+* By default all classes in Kotlin are final so you have to use the open annotation in the parent class,
+* this tells the compiler that this class can be inherited by other classes.
 * */
 open class Vegetable(seeds: String, leaves: String, roots: String) {
     init {
